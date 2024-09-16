@@ -12,9 +12,9 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+ 
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -42,7 +42,7 @@ Users should be able to:
 
 
 - Solution URL: [Github REpo](https://github.com/codeAndcocoa/Expenses-chart-component.git)
-- Live Site URL: [Live site](https://codeandcocoa.github.io/Interactive-card-details-form/)
+- Live Site URL: [Live site]([https://codeandcocoa.github.io/Interactive-card-details-form/](https://codeandcocoa.github.io/Expenses-chart-component/))
 
 
 ## My process
