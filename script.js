@@ -16,7 +16,7 @@ fetch(API)
       return { labelValues, dataValues };
     });
     const ctx = document.getElementById("spendChart").getContext("2d");
-    const spendChart = new Chart(ctx, {
+    new Chart(ctx, {
       type: "bar",
       data: {
         labels: labelValues,
@@ -26,7 +26,7 @@ fetch(API)
             backgroundColor: "hsl(10, 79%, 65%)",
             borderRadius: 5,
             barThickness: 35,
-            hoverBackgroundColor: "hsl(10, 79%, 75%)",
+            hoverBackgroundColor: ["hsl(10, 79%, 75%)","hsl(10, 79%, 75%)","hsl(186, 34%, 60%)","hsl(10, 79%, 75%)","hsl(10, 79%, 75%)","hsl(10, 79%, 75%)","hsl(10, 79%, 75%)"],
            
           },
           
@@ -71,7 +71,7 @@ fetch(API)
                         let label = context.dataset.label || '';
 
                         if (label) {
-                            label = ` $${label}`;
+                            label = ` ${label}`;
                         }
                         if (context.parsed.y !== null) {
                           label += new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(context.parsed.y);
@@ -85,10 +85,14 @@ fetch(API)
         },
          onHover: (event, chartElement) => {
             event.native.target.style.cursor = chartElement.length ? 'pointer' : 'default';
-           console.log(chartElement.datasets);
+           
+      
         },
-       
-      },
+      
+    
+    
+    
+    }
     });
   })
   .catch((err) => console.log(err));
