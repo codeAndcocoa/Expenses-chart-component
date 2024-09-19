@@ -42,7 +42,7 @@ Users should be able to:
 
 
 - Solution URL: [Github REpo](https://github.com/codeAndcocoa/Expenses-chart-component.git)
-- Live Site URL: [Live site]([https://codeandcocoa.github.io/Interactive-card-details-form/](https://codeandcocoa.github.io/Expenses-chart-component/))
+- Live Site URL: [Live site]((https://codeandcocoa.github.io/Expenses-chart-component/)
 
 
 ## My process
